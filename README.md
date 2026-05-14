@@ -1,0 +1,1 @@
+Weather dashboard built with HTML/CSS/JavaScript, using the OpenWeather API to fetch and display current weather 
