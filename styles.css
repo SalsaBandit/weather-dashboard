@@ -1,0 +1,39 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#weather-result {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.weather-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#forecast-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#forecast-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
