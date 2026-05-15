@@ -30,10 +30,10 @@ form.addEventListener('submit', async (event) => {
         }
         const data = await response.json();
         cityNameElement.textContent = data.name;
-        temperatureElement.textContent = 'Temperature: ' + data.main.temp + ' °C';
-        descriptionElement.textContent = 'Description: ' + data.weather[0].description;
-        humidityElement.textContent = 'Humidity: ' + data.main.humidity + '%';
-        windSpeedElement.textContent = 'Wind Speed: ' + data.wind.speed + ' m/s';
+        temperatureElement.textContent = data.main.temp + ' °C';
+        descriptionElement.textContent = data.weather[0].description;
+        humidityElement.textContent = data.main.humidity + '%';
+        windSpeedElement.textContent = data.wind.speed + ' m/s';
 
         weatherContainer.classList.remove("hidden");
 

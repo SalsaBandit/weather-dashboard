@@ -1,3 +1,13 @@
+body {
+    background-image: url('https://unsplash.com/photos/3Z70SDuYs5g/download?force=true&w=1920');
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
 .main-container {
     display: flex;
     flex-direction: column;
@@ -6,6 +16,7 @@
 }
 
 #weather-result {
+    background-color: aquamarine;
     display: flex;
     flex-direction: column;
     border: 1px solid black;
@@ -22,6 +33,7 @@
 }
 
 #forecast-container {
+    background-color: aquamarine;
     display: flex;
     flex-direction: row;
     justify-content: center;
